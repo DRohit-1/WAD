@@ -1,0 +1,50 @@
+Dell@lol MINGW64 /c/Pratik
+$ git clone https://github.com/pratikborade11/WAD.git
+Cloning into 'WAD'...
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (11/11), done.
+
+Dell@lol MINGW64 /c/Pratik
+$ cd WAD
+
+Dell@lol MINGW64 /c/Pratik/WAD (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignment.2A/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Dell@lol MINGW64 /c/Pratik/WAD (main)
+$ git add *
+
+Dell@lol MINGW64 /c/Pratik/WAD (main)
+$ git config user.email "pratiksb2201@gmail.com"
+
+Dell@lol MINGW64 /c/Pratik/WAD (main)
+$ git commit -m "Files are added"
+[main c3cdb93] Files are added
+ 2 files changed, 1 insertion(+)
+ create mode 100644 Assignment.2A/Commands.txt
+ create mode 100644 Assignment.2A/Theory.txt
+
+Dell@lol MINGW64 /c/Pratik/WAD (main)
+$ git remote set-url origin https://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@github.com/pratikborade11/WAD.git
+
+Dell@lol MINGW64 /c/Pratik/WAD (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 384 bytes | 384.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/pratikborade11/WAD.git
+   5f00cf4..c3cdb93  main -> main
+
